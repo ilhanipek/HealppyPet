@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		452F83922A0E92C500D6A24C /* CreatedAppointmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452F83912A0E92C500D6A24C /* CreatedAppointmentsViewController.swift */; };
+		452F83D62A13763D00D6A24C /* CreatedAppointmentsTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452F83D52A13763D00D6A24C /* CreatedAppointmentsTimeViewController.swift */; };
+		454005B329F07F9E00C23752 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454005B229F07F9E00C23752 /* AppDelegate.swift */; };
+		454005B529F07F9E00C23752 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454005B429F07F9E00C23752 /* SceneDelegate.swift */; };
+		454005BA29F07F9E00C23752 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454005B829F07F9E00C23752 /* Main.storyboard */; };
+		454005BC29F07FA100C23752 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 454005BB29F07FA100C23752 /* Assets.xcassets */; };
+		454005BF29F07FA100C23752 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454005BD29F07FA100C23752 /* LaunchScreen.storyboard */; };
+		454005C729F0808300C23752 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 454005C629F0808300C23752 /* GoogleService-Info.plist */; };
+		454005CA29F0826600C23752 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 454005C929F0826600C23752 /* FirebaseAnalytics */; };
+		454005CC29F0826600C23752 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 454005CB29F0826600C23752 /* FirebaseAuth */; };
+		454005CE29F0826600C23752 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 454005CD29F0826600C23752 /* FirebaseDatabase */; };
+		454005D029F0826600C23752 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 454005CF29F0826600C23752 /* FirebaseFirestore */; };
+		454005D229F0826600C23752 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 454005D129F0826600C23752 /* FirebaseStorage */; };
+		454005D429F0863800C23752 /* AFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454005D329F0863800C23752 /* AFViewController.swift */; };
+		454005D629F0895500C23752 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454005D529F0895500C23752 /* ProfileViewController.swift */; };
+		454C69662A0B029E00BFA422 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454C69652A0B029E00BFA422 /* ViewController.swift */; };
+		454C69682A0B222900BFA422 /* VetTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454C69672A0B222900BFA422 /* VetTabBarViewController.swift */; };
+		455F657729FD33CE0086869D /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455F657629FD33CE0086869D /* TimeViewController.swift */; };
+		455F657929FD39360086869D /* TimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455F657829FD39360086869D /* TimeCell.swift */; };
+		457ED3942A03DD1B00AFBE59 /* AppointmentClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457ED3932A03DD1A00AFBE59 /* AppointmentClass.swift */; };
+		459702492A1D690500D68272 /* GettingName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459702482A1D690500D68272 /* GettingName.swift */; };
+		45B4EC612A3679720047E884 /* TextFieldDesigner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B4EC602A3679720047E884 /* TextFieldDesigner.swift */; };
+		45C50CDD2A1A6CFA004408C2 /* PetOwnerProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C50CDC2A1A6CFA004408C2 /* PetOwnerProfileViewController.swift */; };
+		45C50CE32A1AAF23004408C2 /* VetDateeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C50CE22A1AAF23004408C2 /* VetDateeViewController.swift */; };
+		45C50D252A1AE177004408C2 /* PetOwnerTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C50D242A1AE177004408C2 /* PetOwnerTabBarViewController.swift */; };
+		45C50D342A1C190E004408C2 /* VetTimeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C50D332A1C190E004408C2 /* VetTimeeViewController.swift */; };
+		45E6CAB32A1C822C00840CDA /* FormDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6CAB22A1C822C00840CDA /* FormDataViewController.swift */; };
+		45E6CAB52A1D3FF500840CDA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6CAB42A1D3FF500840CDA /* FirstViewController.swift */; };
+		45E6CAB72A1D44FF00840CDA /* VetSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6CAB62A1D44FF00840CDA /* VetSignUpViewController.swift */; };
+		45E6CAB92A1D451A00840CDA /* PetOwnerSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6CAB82A1D451A00840CDA /* PetOwnerSignUpViewController.swift */; };
+		45F531D629F1780300D4BE8F /* VetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F531D529F1780300D4BE8F /* VetCell.swift */; };
+		45F531DC29F179C100D4BE8F /* VetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F531DB29F179C100D4BE8F /* VetViewController.swift */; };
+		45F531DE29F3321600D4BE8F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F531DD29F3321600D4BE8F /* SettingsViewController.swift */; };
+		D1E980B0AC4720435B28256E /* Pods_HealppyPet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0C16EE911B38D806440E66 /* Pods_HealppyPet.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F0C16EE911B38D806440E66 /* Pods_HealppyPet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealppyPet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21C23D3003AA8A4F3B6ACEDA /* Pods-HealppyPet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealppyPet.release.xcconfig"; path = "Target Support Files/Pods-HealppyPet/Pods-HealppyPet.release.xcconfig"; sourceTree = "<group>"; };
+		452F83912A0E92C500D6A24C /* CreatedAppointmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatedAppointmentsViewController.swift; sourceTree = "<group>"; };
+		452F83D52A13763D00D6A24C /* CreatedAppointmentsTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatedAppointmentsTimeViewController.swift; sourceTree = "<group>"; };
+		454005AF29F07F9E00C23752 /* HealppyPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealppyPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		454005B229F07F9E00C23752 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		454005B429F07F9E00C23752 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		454005B929F07F9E00C23752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		454005BB29F07FA100C23752 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		454005BE29F07FA100C23752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		454005C029F07FA100C23752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		454005C629F0808300C23752 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		454005D329F0863800C23752 /* AFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFViewController.swift; sourceTree = "<group>"; };
+		454005D529F0895500C23752 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		454C69652A0B029E00BFA422 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		454C69672A0B222900BFA422 /* VetTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VetTabBarViewController.swift; sourceTree = "<group>"; };
+		455F657629FD33CE0086869D /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
+		455F657829FD39360086869D /* TimeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCell.swift; sourceTree = "<group>"; };
+		457ED3932A03DD1A00AFBE59 /* AppointmentClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentClass.swift; sourceTree = "<group>"; };
+		459702482A1D690500D68272 /* GettingName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingName.swift; sourceTree = "<group>"; };
+		45B4EC602A3679720047E884 /* TextFieldDesigner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDesigner.swift; sourceTree = "<group>"; };
+		45C50CDC2A1A6CFA004408C2 /* PetOwnerProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetOwnerProfileViewController.swift; sourceTree = "<group>"; };
+		45C50CE22A1AAF23004408C2 /* VetDateeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VetDateeViewController.swift; sourceTree = "<group>"; };
+		45C50D242A1AE177004408C2 /* PetOwnerTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetOwnerTabBarViewController.swift; sourceTree = "<group>"; };
+		45C50D332A1C190E004408C2 /* VetTimeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VetTimeeViewController.swift; sourceTree = "<group>"; };
+		45E6CAB22A1C822C00840CDA /* FormDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormDataViewController.swift; sourceTree = "<group>"; };
+		45E6CAB42A1D3FF500840CDA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		45E6CAB62A1D44FF00840CDA /* VetSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VetSignUpViewController.swift; sourceTree = "<group>"; };
+		45E6CAB82A1D451A00840CDA /* PetOwnerSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetOwnerSignUpViewController.swift; sourceTree = "<group>"; };
+		45F531D529F1780300D4BE8F /* VetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VetCell.swift; sourceTree = "<group>"; };
+		45F531DB29F179C100D4BE8F /* VetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VetViewController.swift; sourceTree = "<group>"; };
+		45F531DD29F3321600D4BE8F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E2923E93BEC6B1120036C600 /* Pods-HealppyPet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealppyPet.debug.xcconfig"; path = "Target Support Files/Pods-HealppyPet/Pods-HealppyPet.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		454005AC29F07F9E00C23752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454005CE29F0826600C23752 /* FirebaseDatabase in Frameworks */,
+				454005D029F0826600C23752 /* FirebaseFirestore in Frameworks */,
+				454005CA29F0826600C23752 /* FirebaseAnalytics in Frameworks */,
+				454005D229F0826600C23752 /* FirebaseStorage in Frameworks */,
+				454005CC29F0826600C23752 /* FirebaseAuth in Frameworks */,
+				D1E980B0AC4720435B28256E /* Pods_HealppyPet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ECB2211A5A5BE7BA249AAC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F0C16EE911B38D806440E66 /* Pods_HealppyPet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		454005A629F07F9E00C23752 = {
+			isa = PBXGroup;
+			children = (
+				454005B129F07F9E00C23752 /* HealppyPet */,
+				454005B029F07F9E00C23752 /* Products */,
+				8C4CD8ABEC5264E4DC2F7B52 /* Pods */,
+				1ECB2211A5A5BE7BA249AAC9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		454005B029F07F9E00C23752 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				454005AF29F07F9E00C23752 /* HealppyPet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		454005B129F07F9E00C23752 /* HealppyPet */ = {
+			isa = PBXGroup;
+			children = (
+				45C50D2B2A1B9C18004408C2 /* Delegates */,
+				45C50D282A1B990F004408C2 /* Login */,
+				45C50D322A1B9E90004408C2 /* PetOwner */,
+				45C50D312A1B9E7D004408C2 /* Vet */,
+				45C50D292A1B9990004408C2 /* TabBarControllers */,
+				454005B829F07F9E00C23752 /* Main.storyboard */,
+				454005BB29F07FA100C23752 /* Assets.xcassets */,
+				454005BD29F07FA100C23752 /* LaunchScreen.storyboard */,
+				454005C029F07FA100C23752 /* Info.plist */,
+				454005C629F0808300C23752 /* GoogleService-Info.plist */,
+				457ED3932A03DD1A00AFBE59 /* AppointmentClass.swift */,
+				459702482A1D690500D68272 /* GettingName.swift */,
+				45B4EC602A3679720047E884 /* TextFieldDesigner.swift */,
+			);
+			path = HealppyPet;
+			sourceTree = "<group>";
+		};
+		45C50D282A1B990F004408C2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				45E6CAB42A1D3FF500840CDA /* FirstViewController.swift */,
+				454C69652A0B029E00BFA422 /* ViewController.swift */,
+				45E6CAB62A1D44FF00840CDA /* VetSignUpViewController.swift */,
+				45E6CAB82A1D451A00840CDA /* PetOwnerSignUpViewController.swift */,
+			);
+			name = Login;
+			path = "Logİn";
+			sourceTree = "<group>";
+		};
+		45C50D292A1B9990004408C2 /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				45C50D242A1AE177004408C2 /* PetOwnerTabBarViewController.swift */,
+				454C69672A0B222900BFA422 /* VetTabBarViewController.swift */,
+			);
+			path = TabBarControllers;
+			sourceTree = "<group>";
+		};
+		45C50D2A2A1B9A13004408C2 /* AppointmentForm */ = {
+			isa = PBXGroup;
+			children = (
+				454005D329F0863800C23752 /* AFViewController.swift */,
+				45C50CE22A1AAF23004408C2 /* VetDateeViewController.swift */,
+				45F531DB29F179C100D4BE8F /* VetViewController.swift */,
+				45C50D332A1C190E004408C2 /* VetTimeeViewController.swift */,
+				45F531D529F1780300D4BE8F /* VetCell.swift */,
+			);
+			path = AppointmentForm;
+			sourceTree = "<group>";
+		};
+		45C50D2B2A1B9C18004408C2 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				454005B229F07F9E00C23752 /* AppDelegate.swift */,
+				454005B429F07F9E00C23752 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		45C50D2C2A1B9C50004408C2 /* PetOwnerProfile */ = {
+			isa = PBXGroup;
+			children = (
+				45C50CDC2A1A6CFA004408C2 /* PetOwnerProfileViewController.swift */,
+			);
+			path = PetOwnerProfile;
+			sourceTree = "<group>";
+		};
+		45C50D2D2A1B9CB3004408C2 /* VetSettings */ = {
+			isa = PBXGroup;
+			children = (
+				455F657629FD33CE0086869D /* TimeViewController.swift */,
+				45F531DD29F3321600D4BE8F /* SettingsViewController.swift */,
+				455F657829FD39360086869D /* TimeCell.swift */,
+			);
+			path = VetSettings;
+			sourceTree = "<group>";
+		};
+		45C50D2E2A1B9D08004408C2 /* VetProfile */ = {
+			isa = PBXGroup;
+			children = (
+				454005D529F0895500C23752 /* ProfileViewController.swift */,
+				452F83912A0E92C500D6A24C /* CreatedAppointmentsViewController.swift */,
+				452F83D52A13763D00D6A24C /* CreatedAppointmentsTimeViewController.swift */,
+				45E6CAB22A1C822C00840CDA /* FormDataViewController.swift */,
+			);
+			path = VetProfile;
+			sourceTree = "<group>";
+		};
+		45C50D312A1B9E7D004408C2 /* Vet */ = {
+			isa = PBXGroup;
+			children = (
+				45C50D2D2A1B9CB3004408C2 /* VetSettings */,
+				45C50D2E2A1B9D08004408C2 /* VetProfile */,
+			);
+			path = Vet;
+			sourceTree = "<group>";
+		};
+		45C50D322A1B9E90004408C2 /* PetOwner */ = {
+			isa = PBXGroup;
+			children = (
+				45C50D2A2A1B9A13004408C2 /* AppointmentForm */,
+				45C50D2C2A1B9C50004408C2 /* PetOwnerProfile */,
+			);
+			path = PetOwner;
+			sourceTree = "<group>";
+		};
+		8C4CD8ABEC5264E4DC2F7B52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2923E93BEC6B1120036C600 /* Pods-HealppyPet.debug.xcconfig */,
+				21C23D3003AA8A4F3B6ACEDA /* Pods-HealppyPet.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		454005AE29F07F9E00C23752 /* HealppyPet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 454005C329F07FA100C23752 /* Build configuration list for PBXNativeTarget "HealppyPet" */;
+			buildPhases = (
+				9C308DD30EC5A005A3D03E2B /* [CP] Check Pods Manifest.lock */,
+				454005AB29F07F9E00C23752 /* Sources */,
+				454005AC29F07F9E00C23752 /* Frameworks */,
+				454005AD29F07F9E00C23752 /* Resources */,
+				9B1825C78D0C37416760B2F0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealppyPet;
+			packageProductDependencies = (
+				454005C929F0826600C23752 /* FirebaseAnalytics */,
+				454005CB29F0826600C23752 /* FirebaseAuth */,
+				454005CD29F0826600C23752 /* FirebaseDatabase */,
+				454005CF29F0826600C23752 /* FirebaseFirestore */,
+				454005D129F0826600C23752 /* FirebaseStorage */,
+			);
+			productName = HealppyPet;
+			productReference = 454005AF29F07F9E00C23752 /* HealppyPet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		454005A729F07F9E00C23752 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					454005AE29F07F9E00C23752 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 454005AA29F07F9E00C23752 /* Build configuration list for PBXProject "HealppyPet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 454005A629F07F9E00C23752;
+			packageReferences = (
+				454005C829F0826600C23752 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 454005B029F07F9E00C23752 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				454005AE29F07F9E00C23752 /* HealppyPet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		454005AD29F07F9E00C23752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454005BF29F07FA100C23752 /* LaunchScreen.storyboard in Resources */,
+				454005C729F0808300C23752 /* GoogleService-Info.plist in Resources */,
+				454005BC29F07FA100C23752 /* Assets.xcassets in Resources */,
+				454005BA29F07F9E00C23752 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9B1825C78D0C37416760B2F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealppyPet/Pods-HealppyPet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealppyPet/Pods-HealppyPet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealppyPet/Pods-HealppyPet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C308DD30EC5A005A3D03E2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealppyPet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		454005AB29F07F9E00C23752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452F83D62A13763D00D6A24C /* CreatedAppointmentsTimeViewController.swift in Sources */,
+				452F83922A0E92C500D6A24C /* CreatedAppointmentsViewController.swift in Sources */,
+				454005B329F07F9E00C23752 /* AppDelegate.swift in Sources */,
+				454005D629F0895500C23752 /* ProfileViewController.swift in Sources */,
+				45F531D629F1780300D4BE8F /* VetCell.swift in Sources */,
+				45C50D342A1C190E004408C2 /* VetTimeeViewController.swift in Sources */,
+				45F531DC29F179C100D4BE8F /* VetViewController.swift in Sources */,
+				454C69662A0B029E00BFA422 /* ViewController.swift in Sources */,
+				454005B529F07F9E00C23752 /* SceneDelegate.swift in Sources */,
+				45C50CE32A1AAF23004408C2 /* VetDateeViewController.swift in Sources */,
+				454C69682A0B222900BFA422 /* VetTabBarViewController.swift in Sources */,
+				454005D429F0863800C23752 /* AFViewController.swift in Sources */,
+				45B4EC612A3679720047E884 /* TextFieldDesigner.swift in Sources */,
+				45E6CAB92A1D451A00840CDA /* PetOwnerSignUpViewController.swift in Sources */,
+				455F657729FD33CE0086869D /* TimeViewController.swift in Sources */,
+				45E6CAB32A1C822C00840CDA /* FormDataViewController.swift in Sources */,
+				455F657929FD39360086869D /* TimeCell.swift in Sources */,
+				45E6CAB52A1D3FF500840CDA /* FirstViewController.swift in Sources */,
+				457ED3942A03DD1B00AFBE59 /* AppointmentClass.swift in Sources */,
+				459702492A1D690500D68272 /* GettingName.swift in Sources */,
+				45F531DE29F3321600D4BE8F /* SettingsViewController.swift in Sources */,
+				45E6CAB72A1D44FF00840CDA /* VetSignUpViewController.swift in Sources */,
+				45C50D252A1AE177004408C2 /* PetOwnerTabBarViewController.swift in Sources */,
+				45C50CDD2A1A6CFA004408C2 /* PetOwnerProfileViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		454005B829F07F9E00C23752 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				454005B929F07F9E00C23752 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		454005BD29F07FA100C23752 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				454005BE29F07FA100C23752 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		454005C129F07FA100C23752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		454005C229F07FA100C23752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		454005C429F07FA100C23752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2923E93BEC6B1120036C600 /* Pods-HealppyPet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KG89QHQ73;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HealppyPet/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilhanipek.HealppyPet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		454005C529F07FA100C23752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C23D3003AA8A4F3B6ACEDA /* Pods-HealppyPet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KG89QHQ73;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HealppyPet/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilhanipek.HealppyPet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		454005AA29F07F9E00C23752 /* Build configuration list for PBXProject "HealppyPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454005C129F07FA100C23752 /* Debug */,
+				454005C229F07FA100C23752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		454005C329F07FA100C23752 /* Build configuration list for PBXNativeTarget "HealppyPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454005C429F07FA100C23752 /* Debug */,
+				454005C529F07FA100C23752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		454005C829F0826600C23752 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		454005C929F0826600C23752 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 454005C829F0826600C23752 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		454005CB29F0826600C23752 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 454005C829F0826600C23752 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		454005CD29F0826600C23752 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 454005C829F0826600C23752 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		454005CF29F0826600C23752 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 454005C829F0826600C23752 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		454005D129F0826600C23752 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 454005C829F0826600C23752 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 454005A729F07F9E00C23752 /* Project object */;
+}
